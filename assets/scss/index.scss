@@ -1,0 +1,53 @@
+@import './_reset.scss';
+@import 'variables.scss';
+@import 'colour_schemes.scss';
+@import 'typography.scss';
+@import './mixins/index';
+
+html,
+body {
+  background: white;
+  font-family: $inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  padding: 0;
+  margin: 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  @include container;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+button {
+   &:hover {
+     transform: scale(1.02);
+   }
+  &:active {
+    transform: scale(1);
+  }
+}
+
+
+
+

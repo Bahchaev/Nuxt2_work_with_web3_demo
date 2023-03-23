@@ -1,0 +1,29 @@
+@mixin text20 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@mixin text16 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@mixin text12 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@mixin modal {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding: 32px;
+  background: #CAEFFC;
+  border-radius: 12px;
+  &__header {
+    text-align: center;
+  }
+}

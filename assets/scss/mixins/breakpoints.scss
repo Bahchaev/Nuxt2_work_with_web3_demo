@@ -1,0 +1,41 @@
+@mixin _1919 {
+  @media (max-width: 1919px) {
+    @content;
+  }
+}
+
+@mixin _1439 {
+  @media (max-width: 1439px) {
+    @content;
+  }
+}
+
+@mixin _1199 {
+  @media (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin _989 {
+  @media (max-width: 989px) {
+    @content;
+  }
+}
+
+@mixin _767 {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin _575 {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+
+@mixin _374 {
+  @media (max-width: 374px) {
+    @content;
+  }
+}
